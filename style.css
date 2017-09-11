@@ -1,0 +1,331 @@
+footer{
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 7%;
+}
+figure{
+  text-align: center;;
+}
+figure img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 20px;
+}
+footer .container{
+  padding-top:2em;
+}
+ul li{
+    display: inline-block;
+}
+h4{
+  text-align: center;
+}
+nav{
+  width: 90%;
+  height: 20%;
+  margin: 0 auto;
+  position: relative;
+  top: px;
+}
+a{
+  color: #000;
+}
+a:hover{
+  color:#4C8930;
+}
+
+nav .menu-links ul{
+  position: relative;
+  top: 10px;
+}
+nav .menu-links ul li{
+  margin-left: 5%;
+}
+/********* classes ******/
+
+.upper-nav{
+  background-color: #4c8930;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+}
+.upper-nav p{
+  display: inline-block;
+}
+.upper-menu{
+  float: right;
+  margin-right: 10%;
+  margin-top: 8px;
+}
+
+.count{
+  color: #000;
+  font-size: 2.8em;
+}
+.strong{
+  font-weight: bold;
+}
+.subtitle{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+.date{
+  font-size: .8em;
+  font-weight: lighter;
+}
+.section {
+  width: 100%;
+  position: relative;
+    top: -20px;
+}
+.card-image{
+  border-bottom-color: #000 !important;
+}
+.box{
+  height: 160px;
+}
+.some{
+  position: relative;
+  top: 100px;
+  width: 200px;
+
+}
+{
+  height: 40px;
+  width: 40px;
+  border-radius: 250px;
+  display: block;
+  float: right;
+  position: relative;
+  left: -200px;
+}
+.icon.icon-some{
+  margin-left: 1%;
+}
+.text-title{
+  margin-bottom: 3em;
+  width: 200px;
+}
+/*******modal******/
+.modal-card-head{
+  background-color: #4c8930;
+}
+.modal-card-title{
+  color: #fff;
+}
+.modal-card-foot #ok{
+  margin: 0 auto;
+}
+/******sections****/
+.section.subscribe{
+  text-align: center;;
+}
+.subscribe-text{
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+ .subscribe input[type="text"] {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.4em;
+}
+.section.News{
+  background-color: #F1F1F1;
+}
+.section.Numbers{
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+.section.Numbers .icon{
+  position: relative;
+  top: 30px;
+  left: 68px;
+}
+.section.Images{
+  width: 50%;
+}
+.section.Images .columns{
+  position: relative;
+  left: 20%;
+}
+.section.Images h4{
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+  top: 37%;
+}
+.links{
+  position: relative;
+  left: : 400px;
+}
+/*******logos***********/
+.liana-logo{
+  width: 200px;
+  height: 50px;
+  display: block;
+  background: url("../img/logo/liana_logo.png") no-repeat top left;
+  background-size:100px 50px;
+}
+
+/*******icons**********/
+.icon{
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-size:100px 100px;
+}
+.icon-some{
+  width: 50px;
+  height: 50px;
+  background-size: 40px 40px !important;
+  background-position: top left;
+  display: block;
+  float: left;
+
+}
+.icon-person{
+  background: url("../img/icon/person_icon.png") no-repeat top left;
+}
+.icon-world{
+    background: url("../img/icon/world_icon.png") no-repeat top left;
+}
+.icon-toolbox{
+    background: url("../img/icon/toolbox_icon.png") no-repeat top left;
+}
+.facebook{
+  background: url("../img/icon/facebook_icon.png") no-repeat top left;
+}
+.linkedin{
+  background: url("../img/icon/linkedin_icon.png") no-repeat top left;
+}
+.twitter{
+  background: url("../img/icon/twitter_icon.png") no-repeat top left;
+}
+.intro{
+  width: 95%;
+  height: 350px;
+  margin: 0 auto;
+  background: url("../img/img/computer.jpeg");
+  box-shadow:inset 0 0 0 1000px hsla(176, 0%, 30%, 0.4);
+  background-size: cover;
+  background-position: 40%;
+}
+.intro-text{
+  position: relative;
+  top: 100px;
+}
+.intro-text h2{
+  color: #fff;
+  font-size: 2.7em;
+  text-align: center;
+}
+.intro-text a{
+left: 50%;
+}
+.cover-img{
+  width: 95%;
+  min-height: 400px;
+  box-shadow:inset 0 0 0 1000px hsla(176, 0%, 30%, 0.4);
+  background-position: 40%;
+   background: transparent;
+}
+
+
+.img-container{
+  position: relative;
+  width: 270px;
+  height: 200px;
+
+  box-shadow:inset 0 0 0 1000px hsla(176, 0%, 30%, 0.4);
+  background-size: cover;
+  background-position: 40%;
+}
+.img-company{
+    background: url("../img/img/liana1.jpg")no-repeat;
+}
+.img-products{
+    background: url("../img/img/liana2.jpg")no-repeat;
+}
+.img-contact{
+    background: url("../img/img/liana3.jpg")no-repeat;
+}
+.is-green{
+  background-color: #4c8930 !important;
+  color: #fff;
+}
+.links ul li{
+  display: inline-block;
+}
+.contact-button a{
+    top: 100px;
+    right:40px;
+  }
+/***
+clear fix
+***/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width:600px) {
+  nav{
+    width: 100%;
+  }
+  .contact p{
+    text-align: center;;
+  }
+  .contact-button a{
+    position: relative;
+    left: 36%;
+  }
+  .links ul li{
+    display: block;
+    text-align: center;
+  }
+  .some{
+    position: static;
+    margin-left: 10%;
+    width: 100%;
+  }
+  .some span{
+    left: -80px;
+    margin: 0 auto;
+  }
+  .liana-logo{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 10%;
+  }
+  .contact-button a{
+    top: 0px;
+    right: 0px;
+  }
+  .icon.icon-some{
+    margin-left: 10%;
+  }
+  .img-container{
+    right: 20%;
+  }
+  .count{
+    font-size: 2em;
+    position: relative;
+    left: 10%;
+    top: -30px;
+  }
+  .count p{
+    position: relative;
+    left: 10%;
+    top: -30px;
+
+  }
+
+}

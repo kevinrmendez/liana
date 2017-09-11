@@ -5,3 +5,4 @@ Feednami API for fetching the RSS
 Parallax
 and BULMA CSS framework for managing the presentation of the site
 For simplicity all the js scripts where included in the index.html file
+In order to see the website download the index.html and the assets.zip folder and save them in the same directory

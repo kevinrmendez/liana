@@ -3,4 +3,5 @@ liana Challenge
 This project was done using jquery for DOM manipulation
 Feednami API for fetching the RSS
 Parallax
-and BULMA CSS framework
+and BULMA CSS framework for managing the presentation of the site
+For simplicity all the js scripts where included in the index.html file

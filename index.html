@@ -344,6 +344,9 @@
   feednami.load(feed, function(result){
     if(result.error){
       console.log(result.error)
+      $(".text1").append("no news available");
+      $(".text2").append("no news available");
+      $(".text3").append("no news available");
     }else{
       var entries = result.feed.entries;
       entry1 = entries[0].title;
